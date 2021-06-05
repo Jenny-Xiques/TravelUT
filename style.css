@@ -1,0 +1,72 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+h1 {
+    font-family: Stencil Std, fantasy;
+    color:rgb(57, 57, 95);
+    font-style: normal;
+    text-align: center;
+    padding: 25px;
+
+}
+
+h2 {
+    font-size: 1.5em;
+    background-color:coral green;
+    margin: 20px;
+    padding: 40px;
+}
+
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 55px;
+}
+.left-side {
+    display: flex;
+}
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 15px;
+}
+.nav-link-wrapper a {
+    color: blueviolet;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper a:hover {
+color: black
+}
+
+.portfolio-item-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.portfolio-item-wrapper {
+    position: relative;
+}
+.portfolio-img-background {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.img-izek {
+    width: 200px;
+
+}
+.img-bryce {
+    width: 200px;
+
+}
+.img-kolob {
+    width: 300px;
+}
